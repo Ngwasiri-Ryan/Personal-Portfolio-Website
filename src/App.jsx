@@ -1,4 +1,5 @@
 import React from 'react'
+import './app.css'
 {/**imported sections */}
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
@@ -12,7 +13,7 @@ import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
-    <>
+    <div className='app'>
       <Header/>
       <Nav/>
       <About/>
@@ -22,7 +23,7 @@ const App = () => {
       <Testimonials/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
