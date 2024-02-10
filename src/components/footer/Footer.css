@@ -50,6 +50,7 @@ footer a{
 .footer__copyright {
     margin-top: 4rem;
     color: var(--color-bg);
+    top:-20%;
 }
 
 /*****************MEDIA QUERIES (MEDIUM DEVICES)***************************/
